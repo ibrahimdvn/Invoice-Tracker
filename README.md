@@ -1,43 +1,40 @@
-# Taskify - A Modern To-Do List Web Application
+# Invoicify - A Modern Front-End Invoice Tracker
 
-Taskify is a beautifully designed, intuitive to-do list application built to bring clarity and organization to your daily tasks. This project showcases a complete front-end development workflow, from a compelling landing page to a feature-rich, interactive web app.
+Invoicify is a sleek, intuitive, and powerful front-end application designed for effortless tracking of income and expenses. This project demonstrates a complete product development cycle, featuring a professional landing page to showcase the app and a feature-rich, single-page application for managing personal finances.
 
-The core of Taskify is built with pure, vanilla JavaScript, demonstrating strong fundamentals in modern web technologies without reliance on external frameworks.
+Built entirely with core web technologies, Invoicify proves that a robust and visually appealing user experience can be achieved with pure HTML, CSS, and Vanilla JavaScript.
 
 ---
 
 ## About The Project
 
-This project was developed as a comprehensive case study in modern front-end design and development. It consists of two main parts:
+This project was developed to showcase strong front-end development fundamentals through a practical, real-world application. It is architected into two distinct parts:
 
-1.  **A Persuasive Landing Page:** Designed to tell a story and highlight the app's benefits, encouraging users to try the product.
-2.  **A Functional Web Application:** The to-do list app itself, focusing on a clean, user-centric design and a satisfying user experience.
-
-The entire application runs client-side and utilizes `localStorage` to persist user data, ensuring that your tasks are saved between sessions.
+1.  **A Professional Landing Page (`index.html`):** This serves as the "storefront" for the application. It's designed to attract users by clearly communicating the value proposition and benefits of the financial tracker.
+2.  **A Dynamic Single-Page Application (`app.html`):** This is the core product. It features a dashboard layout that allows users to add, view, and manage their financial transactions seamlessly. All data is saved locally in the browser, ensuring user privacy and instant access without needing an account.
 
 ## Key Features
 
-### Landing Page (`index.html`)
-* **Hero Section:** A strong, clear value proposition to immediately grab the user's attention.
-* **"Before & After" Showcase:** A unique storytelling component that visually demonstrates the app's benefits in transforming chaos into clarity.
-* **Responsive Design:** A fully mobile-first layout that looks great on all devices.
-* **Modern Aesthetics:** Built with a professional dark theme, subtle animations, and a clean layout to create a premium feel.
+### Landing Page
+* **Clear Value Proposition:** A compelling hero section that immediately explains what the app does and for whom.
+* **Visual Showcase:** A clean product mockup that gives users a preview of the application's clear and organized dashboard.
+* **Feature Highlighting:** A dedicated section explaining the core benefits of the application.
+* **Responsive & Modern Design:** A fully responsive layout with a professional dark theme, ensuring a great experience on any device.
 
-### To-Do App (`todo.html`)
-* **Intuitive Task Management:** Easily add, complete, and delete tasks.
-* **Sleek User Interface:** A refined and polished dark-mode interface that's easy on the eyes.
-* **Custom UI Elements:** Satisfying custom-styled checkboxes and smooth animations for a superior user experience.
-* **Smart Filtering:** Filter tasks by "All," "Active," and "Completed" states to stay focused.
-* **Task Persistence:** Your to-do list is automatically saved to the browser's `localStorage`.
-* **"Clear Completed" Functionality:** A dedicated button to easily clear all finished tasks and reduce clutter.
-* **Dynamic UI Updates:** The task count and "empty state" message update in real-time.
+### Invoice Tracker Application
+* **Efficient Two-Panel Layout:** A command-center style interface with controls on the left and the transaction list on the right for maximum productivity.
+* **Persistent Local Storage:** All transaction data is securely saved in the browser's `localStorage`, meaning your data stays on your computer and persists between sessions.
+* **Real-time Dashboard:** Summary cards for Income, Expense, and Balance update instantly as you add or remove transactions.
+* **Instant Search & Filtering:** A powerful search bar allows you to filter your transaction list by description or category in real-time.
+* **Clean Data Entry:** A well-organized form for adding new transactions with clear labels and input types.
+* **Dynamic Table Rendering:** The transaction list is dynamically generated and updated with JavaScript, sorted by date with the newest entries on top.
 
 ## Technologies Used
 
-This project is a testament to the power of core web technologies, built with:
+This project is built from the ground up using fundamental web technologies:
 
-* **HTML5:** For semantic and accessible structure.
-* **CSS3:** For all styling, including custom properties (variables), Flexbox, Grid, and keyframe animations.
-* **Vanilla JavaScript (ES6+):** For all application logic, DOM manipulation, event handling, and interaction with the `localStorage` API.
+* **HTML5:** For creating a semantic and accessible structure for both the landing page and the application.
+* **CSS3:** For all styling, including a professional dark theme, responsive layouts using Grid, and a clean, modern aesthetic. Custom properties (variables) are used for a maintainable color scheme.
+* **Vanilla JavaScript (ES6+):** For all application logic, including DOM manipulation, event handling, form validation, dynamic HTML rendering, and interaction with the `localStorage` API to manage data.
 
-No external frameworks or libraries were used for the core application logic, demonstrating strong foundational skills.
+**No external JavaScript frameworks or libraries were used**, demonstrating a strong command of core JavaScript.
